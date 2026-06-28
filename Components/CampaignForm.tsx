@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import IdeaCard from "./IdeaCard";
+import FileUpload from "./FileUpload";
 
 export default function CampaignForm() {
 
