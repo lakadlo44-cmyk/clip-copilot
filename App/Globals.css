@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background:#09090b;
+color:white;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+input,
+textarea{
+background:#18181b;
+border:1px solid #27272a;
+padding:12px;
+border-radius:10px;
+width:100%;
+margin-top:8px;
+margin-bottom:18px;
+}
+
+button{
+background:#7c3aed;
+padding:12px 20px;
+border-radius:10px;
+font-weight:bold;
+}
+
+button:hover{
+background:#6d28d9;
+}
